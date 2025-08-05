@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white ;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    background-image: url("logo5.png");
+    height:30px ;
+    width: 100px;
+    background-size: cover;
+}
+.nav-logo{
+    height:30px ;
+    width: 100px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.add-frist{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin: 10px;
+}
+.add-second{
+    font-size: 1rem;
+    margin: 1px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.border1{
+ border: 2px solid transparent;
+}
+.border1:hover{
+ border: 2px solid white;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 30px;
+    border-radius: 4px;
+}
+.search-class{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border:none;
+}
+.search-icon{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.nav-Account{
+    font-size: 0.85rem;
+    font-weight: 700;
+
+}
+.nav-span{
+    font-size: 0.7rem;
+}
+.nav-span1{
+    font-size: 0.7rem;
+}
+.Order{
+    font-size: 0.85;
+    font-weight: 700;
+}
+.nav-card1 i{
+    font-size: 30px;
+}
+.nav-card1{
+    font-size:0.85rem ;
+    font-weight: 700;
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-soild p {
+    display: inline;
+    margin: 15px;
+}
+.panel-soild {
+    width: 70%;
+    font-size: 0.90rem;
+}
+.panel-shop{
+    font-size: 0.9rem;
+    font-weight: 700;
+
+}
+.hero{
+    background-image: url("amzon1.jpg");
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-meassagr{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.hero-meassagr a {
+    color:#007185;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+}
+.box{
+    /* border: 2px solid black; */
+    height: 600px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box-image{
+    background-image: url("20.jpg");
+    background-size: cover;
+    height: 500px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-image1{
+     background-image: url("22.webp");
+    background-size: cover;
+    height: 500px;
+
+}
+.box-image2{
+     background-image: url("24.webp");
+    background-size: cover;
+    height: 500px;
+
+}
+.box-image3{
+     background-image: url("25.webp");
+    background-size: cover;
+    height: 500px;
+
+}
+.shop-section{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box1 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box2 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box4 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box1 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#007185;
+}
+.box2 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#007185;
+    margin-top: 30px;
+}
+.box3 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#007185;
+    margin-top: 30px;
+}
+.box4 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#007185;
+    margin-top: 30px;
+}
+.box-image27{
+    background-image: url("27.webp");
+    background-size: cover;
+    height: 500px;
+}
+.box-image28{
+    background-image: url("28.jpg");
+    background-size: cover;
+    height: 500px;
+}
+.box-image29{
+    background-image: url("assets/30.jpg");
+    background-size: cover;
+    height: 500px;
+}
+.box-image30{
+    background-image: url("assets/32.webp");
+    background-size: cover;
+    height: 500px;
+}
+.box-image30{
+    background-image: url("assets/32.webp");
+    background-size: cover;
+    height: 500px;
+}
+.box-image31{
+    background-image: url("1.jpg");
+    background-size: cover;
+    height: 500px;
+}
+.box-image32{
+    background-image: url("3.jpg");
+    background-size: cover;
+    height: 500px;
+}
+.box-image33{
+    background-image: url("5.jpg");
+    background-size: cover;
+    height: 500px;
+}
+.box-image34{
+    background-image: url("2.jpg");
+    background-size: cover;
+    height: 500px;
+}
+.box5 p {
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#007185;
+    margin-top: 30px;
+
+}
+.box7 p {
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#007185;
+    margin-top: 30px;
+}
+.box5 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot{
+    background-color: #37475a;
+    color:white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.f{
+    margin-top: 20px;
+}
+.foot1{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot1 ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 15px;
+
+}
+.foot1 ul{
+    margin-top: 20px;
+}
+.foot2{
+    background-color:#222f3d;
+    color: white;
+    border-top: 0.5px solid white;  
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+    height: 70px;
+}
+.foot3{
+    background-color: #0f1111;
+    color:white;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 80px;
+}
+.p{
+     font-size: 0.7rem;
+     text-align: center;
+     padding-top: 20px;
+}
+.coply{
+font-size: 0.7rem;
+text-align: center;
+margin-top: 10px;
+}
